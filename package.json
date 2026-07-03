@@ -1,0 +1,26 @@
+{
+  "name": "maljeon-one-minute",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://yourusername.github.io/onemin-before-talking",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.9.4"
+  }
+}
